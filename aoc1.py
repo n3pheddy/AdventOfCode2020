@@ -52,7 +52,7 @@ if __name__ == '__main__':
   sum = 2020
   input = []
 
-  with open('puzzle_input.txt') as f:
+  with open('var/puzzle_input.txt') as f:
     line = f.readline()
     while line:
       input.append(int(line))
@@ -61,3 +61,4 @@ if __name__ == '__main__':
   # Use level=0 to find 2 operands, level=1 to find 3 operands, etc.
   for level in range(0, 2):
     find_solution(sum, input.copy(), level)
+    
