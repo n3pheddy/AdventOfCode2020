@@ -52,7 +52,7 @@ if __name__ == '__main__':
   sum = 2020
   input = []
 
-  with open('var/puzzle_input.txt') as f:
+  with open('var/aoc1_input.txt') as f:
     line = f.readline()
     while line:
       input.append(int(line))
