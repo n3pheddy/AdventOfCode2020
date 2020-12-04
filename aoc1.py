@@ -7,12 +7,12 @@ def find_addends(sum, input, level):
   and look for addends that return the given sum. level=0 indicates 2 addends,
   level=1 indicates 1 addends, and so on. Returns a list of its result.
 
-  Time complexity : O(m*n)
-  Space complexity: O(m*n)
+  Time complexity : O(m^n)
+  Space complexity: O(m^n)
   Where m = len(input), n = level+1
 
-  It's possible to get O(m*nlogn) by sorting the list first, then generate an
-  array of {sum} elements for an O(1) lookup.
+  TODO: It's possible to get O(mlogm^n) by sorting the list first, then do
+  a binary search for desired value.
   """
   candidates = []
 
