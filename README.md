@@ -12,3 +12,7 @@ Valid passwords by positioning: 616
 3. dotnet script aoc3.csx  
 Number of trees for right 3, down 1 is 178  
 Product of trees in the given sizes is 3492520200
+
+4. perl aoc4.pl  
+Number of passports with required fields: 190  
+Number of passports with validated fields: 121
