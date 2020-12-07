@@ -1,4 +1,3 @@
-// cargo-deps: foreach
 use std::{
   collections::HashMap,
   fs::File,
