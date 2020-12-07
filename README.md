@@ -33,3 +33,13 @@ then invoke the <code>swift</code> interpretor.
 
 5. swift aoc5.swift  
 Largest ID is 826, my seat ID is 678  
+
+Rust can be run like a script with <code>cargo-script</code>. Install with <code>cargo install cargo-script</code>.
+It needs to be compiled to a temporary directory before running. I'll probably only use this if I'm really CPU-bound
+or I needed to use a Rust library.
+
+6. cargo script aoc6.rs  
+&nbsp;&nbsp;&nbsp;&nbsp;Updating crates.io index  
+&nbsp;&nbsp;&nbsp;Compiling aoc6 v0.1.0 (C:\\???\Profit!\AppData\Local\Cargo\script-cache\file-aoc6-4f48aadee8a27792)  
+&nbsp;&nbsp;&nbsp;&nbsp;Finished release \[optimized\] target(s) in 2.04s  
+At-least-one responses: 7027, All-or-none responses: 3579
