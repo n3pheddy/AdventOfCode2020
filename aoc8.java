@@ -3,7 +3,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.AbstractMap.SimpleImmutableEntry;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Map.Entry;
 import java.util.Optional;
 
@@ -15,6 +14,10 @@ public class aoc8 {
   /**
    * Executes the instructions given in {@code pairs}, then return the
    * accumulated value. Throws an IllegalArgumentException if a loop is detected.
+   * 
+   * Time complexity : O(n)
+   * Space complexity: O(1)
+   * Where n = pairs.size()
    */
   static int execute(ArrayList<Entry<String, Integer>> pairs) throws IllegalArgumentException {
     var acc = 0;
@@ -65,6 +68,10 @@ public class aoc8 {
 
   /**
    * Solves the instructions by attempting to fix the corrupted operation.
+   * 
+   * Time complexity : O(n^2)
+   * Space complexity: O(1)
+   * Where n = pairs.size()
    */
   static int solve(ArrayList<Entry<String, Integer>> pairs) {
     for (var i = 0; i < pairs.size(); i++) {
