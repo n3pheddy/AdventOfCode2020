@@ -43,3 +43,17 @@ or I needed to use a Rust library.
 &nbsp;&nbsp;&nbsp;Compiling aoc6 v0.1.0 (C:\\???\Profit!\AppData\Local\Cargo\script-cache\file-aoc6-4f48aadee8a27792)  
 &nbsp;&nbsp;&nbsp;&nbsp;Finished release \[optimized\] target(s) in 2.04s  
 At-least-one responses: 7027, All-or-none responses: 3579
+
+I ran this using SBT. It's awfully slow, 13s compared to the 2s for Rust (and I was already complaining). I really enjoyed
+the expressiveness of the Scala language though. Talk about a love-hate relationship.
+
+7. sbt run  
+[**info**] welcome to sbt 1.4.3 (Oracle Corporation Java 14.0.2)  
+[**info**] loading project definition from C:\???\Profit!\project  
+[**info**] loading settings for project aoc7 from build.sbt ...  
+[**info**] set current project to aoc7 (in build file:/C:/???/Profit!/)  
+[**info**] compiling 1 Scala source to C:\???\Profit!\target\scala-2.13\classes ...  
+[**info**] running aoc7  
+148 bags can contain a shiny gold bag.  
+shiny gold bag contains 24867 other bags.  
+[**success**] Total time: 13 s, completed Dec 8, 2020, 11:34:51 PM
