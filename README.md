@@ -61,7 +61,7 @@ shiny gold bag contains 24867 other bags.
 Java has changed a lot since I last used it. During my time at Amazon we were stuck at Java 8. The first thing I realized
 though is the number of imports compared to other languages I've used so far. I've also used some of the newer Java
 features, such as <code>(1) jShell REPL (JEP 222)</code> from Java 9, <code>(2) Local-variable Type Inference
-(JEP 286)</code> from Java 10, <code>(3) Switch Expressions (JEP 325)</code> from Java 12 and <code>(4) my favorite Single File
+(JEP 286)</code> from Java 10, <code>(3) Switch Expressions (JEP 325)</code> from Java 12, and my favorite <code>(4) Single File
 Execution (JEP 330)</code> from Java 11.
 
 8. java aoc8.java  
