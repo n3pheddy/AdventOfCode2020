@@ -68,3 +68,10 @@ Execution (JEP 330)</code> from Java 11.
 Loop detected, breaking out! Accumulated value: 1446  
 Repaired line 253 to nop -128  
 Accumulated value: 1403  
+
+I haven't found a way to run Visual Basic.NET source code without compiling. When I started coding I was confused by
+namespaces like <code>My.Computer.FileSystem</code>. I ended up referencing aoc3.csx for usage of the .NET Core libraries.
+
+9. dotnet run --project aoc9  
+Found invalid value 22477624.  
+Sum of smallest and largest of contiguous values is 2980044
