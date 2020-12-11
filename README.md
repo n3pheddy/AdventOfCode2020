@@ -75,3 +75,12 @@ namespaces like <code>My.Computer.FileSystem</code>. I ended up referencing aoc3
 9. dotnet run --project aoc9  
 Found invalid value 22477624.  
 Sum of smallest and largest of contiguous values is 2980044
+
+I used WSL for Ruby. I spent the most time relative to other puzzles on this so far for the second star.
+I knew that I could generate the full combination and then count it, but that's going to be a O(n!) solution and take forever.
+I knew there must be a way to count some how, and is probably a dynamic programming solution. It wasn't until I pasted the
+first 10 combinations in Excel manually that I see the pattern.
+
+10. ruby aoc10.rb  
+product of 1-jolt diff and 3-jolt diff is 2664  
+Number of combinations is 148098383347712
