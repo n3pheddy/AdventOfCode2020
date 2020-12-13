@@ -29,8 +29,8 @@ struct NextGenerationResults {
                 radius:(NSUInteger)radius
                 startY:(NSUInteger)startY
                 startX:(NSUInteger)startX
-               offsetX:(NSInteger)offsetX
-               offsetY:(NSInteger)offsetY {
+               offsetY:(NSInteger)offsetY
+               offsetX:(NSInteger)offsetX {
 
   unichar ch = '.';
   NSUInteger currentX = startX, currentY = startY;
@@ -86,7 +86,7 @@ struct NextGenerationResults {
       for (NSInteger k = -1; k <= 1; k++) {
         for (NSInteger l = -1; l <= 1; l++) {
           if (k != 0 || l != 0) {
-            if ([self findNeighbor:lines radius:radius startY:i startX:j offsetX:k offsetY:l] == '#') {
+            if ([self findNeighbor:lines radius:radius startY:i startX:j offsetY:l offsetX:k] == '#') {
               occupiedAdjacent += 1;
             }
           }
