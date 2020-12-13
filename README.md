@@ -84,3 +84,11 @@ first 10 combinations in Excel manually that I see the pattern.
 10. ruby aoc10.rb  
 product of 1-jolt diff and 3-jolt diff is 2664  
 Number of combinations is 148098383347712
+
+This took me the longest time to setup so far. I used Ubuntu and GCC. I had wanted to use LLVM/Clang to use the latest syntax,
+but it turned out that Ubuntu Bionic contained outdated versions. I tried compiling Clang but ran out of memory on my
+8GB Microsoft Surface Book. I compiled on a bigger machine but when I tried to copy back to my Surface Book I ran out of space.
+
+11. gcc $(gnustep-config --objc-flags) -std=c11 -o aoc11 aoc11.m  
+Number of occupied seats using immediate seats: 2310  
+Number of occupied seats using nearest seats: 2074
