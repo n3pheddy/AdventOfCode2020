@@ -93,3 +93,9 @@ To build on Ubuntu I only needed to install <code>sudo apt-get install gnustep-d
 11. gcc $(gnustep-config --objc-flags) -std=c11 -o aoc11 aoc11.m  
 Number of occupied seats using immediate seats: 2310  
 Number of occupied seats using nearest seats: 2074
+
+I referenced the Kotlin documentation a little more than expected. It seemed to have taken a lot of hints from Scala.
+
+12. kotlin aoc12.kts  
+Manhattan distance for Direction navigation: 1838  
+Manhattan distance for Waypoint navigation: 89936  
