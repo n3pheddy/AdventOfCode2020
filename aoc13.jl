@@ -26,7 +26,6 @@ end
 
 """
 Finds the time where buses will begin arriving according to their index in the input.
-Credits to https://dev.to/qviper/advent-of-code-2020-python-solution-day-13-24k4
 """
 function find_increasing_arrival_time(buses::Array{String})
   mods = Dict{Int, Int}()
