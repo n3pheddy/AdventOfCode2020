@@ -139,3 +139,14 @@ Credits to https://dev.to/qviper/advent-of-code-2020-python-solution-day-13-24k4
 13. julia aoc13.jl  
 ID for earliest bus is 3246  
 Time where schedules align: 1010182346291467
+
+Finally got this out. It wasn't very difficult, I got the general design out on my first attempt. I did read the
+question wrong though and had to amend my code. Between Christmas celebration and debugging an issue at work, I
+was trying to squeeze this one in. I love writing in Go. It's concise and Rust-like. Not too many surprises, except I
+always forgot to declare and assign a new variable using `:=`, and that variables are passed by value by default. This
+manifested as strange bugs when I write to one of my `[]strings.Builders` and it doesn't seemed to have any effect. I love
+to be able to use pointers when needed and the ability to use `switch` statements to replace `if-else`s.
+
+14. go run aoc14.go  
+Sum of masked values: 15403588588538  
+Sum of mask-generated values: 3260587250457  

@@ -61,7 +61,7 @@ end
 # Entry point, starts reading the input file and solves the puzzles.
 lines = readlines("var/aoc13_input.txt")
 time = parse(Int, lines[1])
-buses = split(lines[2],",")
+buses = split(lines[2], ",")
 
 # Convert Array{SubString{String}} to Array{String}
 buses = map(String, buses)
