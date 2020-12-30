@@ -150,3 +150,13 @@ to be able to use pointers when needed and the ability to use `switch` statement
 14. go run aoc14.go  
 Sum of masked values: 15403588588538  
 Sum of mask-generated values: 3260587250457  
+
+My initial solution was printing values for each iteration and took a few hours, caused an OOM in Visual Studio Code. I
+thought this was one of the mathy kind of question, but I couldn't see the pattern. I read other people's solution
+and found that it's almost exactly like mine. I turned off printing and the code now runs in 2 seconds. It reinforces
+the fact that printing is an expensive operation.
+
+15. dart run aoc15.dart  
+2020th value for [0, 3, 6]: 436  
+2020th value for [14, 8, 16, 0, 1, 17]: 240  
+30000000th value for [14, 8, 16, 0, 1, 17]: 505  
