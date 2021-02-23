@@ -160,3 +160,13 @@ the fact that printing is an expensive operation.
 2020th value for [0, 3, 6]: 436  
 2020th value for [14, 8, 16, 0, 1, 17]: 240  
 30000000th value for [14, 8, 16, 0, 1, 17]: 505  
+
+I struggled with nim, almost as much as I struggled with Julia. The toolchain is buggy. I did install `choosenim` to
+make it easier, but there seemed to be a problem with the compilation cache. Even though my syntax was correct, the
+compiler failed with weird errors such as "undeclared identifier" and "indentation error". I never found the root cause,
+but I worked around it by using `choosenim` to install a different version of `nim`. It was a bad experience and I
+don't think it's ready to be used for heavy production use at this time.
+
+16. nim c -r aoc16.nim  
+Ticket Scanning Error Rate: 29759  
+Product of departure fields: 1307550234719  
